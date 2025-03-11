@@ -6,3 +6,6 @@ const router = express.Router();
 router.get("/api_gateway/all", getAllProductos);
 
 export default router;
+
+
+//-------------------

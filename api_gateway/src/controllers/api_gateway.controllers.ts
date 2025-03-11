@@ -7,3 +7,5 @@ export const getProductos = (req: Request, res: Response) => {
 export const getAllProductos = (req: Request, res: Response) => {
     res.send("api_gateway corriendo");
 };
+
+//---------------------------

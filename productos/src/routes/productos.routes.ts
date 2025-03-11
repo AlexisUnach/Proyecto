@@ -7,3 +7,5 @@ router.get("/productos/all", getAllProductos);
 router.get("/all", getProductos);
 
 export default router;
+
+//------------------------------
