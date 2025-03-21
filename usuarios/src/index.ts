@@ -7,6 +7,9 @@ dotenv.config({ path: "./src/.env" });
 const app = express();
 const port = process.env.PORT;
 
+//--->
+app.use(express.json());
+
 app.use('/', productosRoutes);
 
 app.listen(port, () => {
